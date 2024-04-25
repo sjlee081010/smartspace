@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+li, a{
+    display: block;
+    text-align: center;
+}
+.menu {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+.LIST{
+    
+    height: 50px;
+    width: 200px;
+    background-color: gray;
+    overflow: hidden;
+}
+a{
+    height: 50px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.518);
+}
+a:hover{
+    background-color: black;
+    color: white;
+    
+}
+.LIST:hover{
+    overflow: visible;
+}
+
+

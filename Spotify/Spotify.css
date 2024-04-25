@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 80px;
+    background-color: black;
+}
+nav {
+    width: 1150px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1 {
+    width: 140px;
+    height: 60px;
+    margin: 20px 0px 0px;
+    position: absolute;
+}
+.box2 {
+    width: 600px;
+    height: 80px;
+    position: absolute;
+}
+.box3 {
+    width: 400px;
+    height: 80PX;
+    position: absolute;
+}
+
