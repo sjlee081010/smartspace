@@ -10,24 +10,103 @@ nav {
     width: 1150px;
     height: 80px;
     margin: auto;
-    position: relative;
-    flex-direction: row;
+    display: flex;    
     justify-content: space-between;
 }
 .box1 {
-    width: 140px;
+    width: 132px;
     height: 60px;
     margin: 20px 0px 0px;
-    position: absolute;
+    color: white;
 }
 .box2 {
-    width: 600px;
+    width: 530px;
     height: 80px;
-    position: absolute;
+    display: flex;
 }
-.box3 {
-    width: 400px;
-    height: 80PX;
-    position: absolute;
+.menu {
+    display: inline-block;
+    height: 80px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    line-height: 80px;
 }
+.LIST{
+    display: inline-block;
+    overflow: hidden;
+    width: 110px;
+    height: 80px;
+}
+.LIST:hover {
+    overflow: visible;
+}
+#pr {
+    height: 80px;
+    display: block;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+}
+#pr:hover{
+    background-color: black;
+    color: green;
+}
+.dropdown {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    width: 320px;
+    height: 80px;
+    padding: 40px 0px 0px 30px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+}
+.dropdown:hover {
+    background-color: black;
+}
+.pl{
+    color: rgba(220, 220, 220, 0.825);
+    font-size: 14px;
+}
+#sp {
+    width: 65px;
+}
+#do {
+    width: 130px;
+}
+#sh {
+    width: 25px;
+}
+#jo {
+    width: 100px;
+}
+#lo {
+    width: 100px;
+}
+.menu:hover {
+    color: green;
+}
+.section1 {
+    height: 430px;
+    background-color: rgb(253, 203, 210);
+}
+.section101 {
+    width: 1150px;
+    height: 430px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section10101 {
+    width: 750px;
+    height: 430px;
+}
+.section10101 {
+    width: 300px;
+    height: 430px;
+}
+
 
