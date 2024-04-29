@@ -63,9 +63,11 @@ nav {
     padding: 40px 0px 0px 30px;
     color: white;
     background-color: rgb(40, 40, 40);
+    position: relative;
 }
 .dropdown:hover {
     background-color: black;
+
 }
 .pl{
     color: rgba(220, 220, 220, 0.825);
@@ -78,7 +80,13 @@ nav {
     width: 130px;
 }
 #sh {
+    height: 80px;
     width: 25px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
 }
 #jo {
     width: 100px;
@@ -102,11 +110,56 @@ nav {
 }
 .section10101 {
     width: 750px;
-    height: 430px;
+    height: 320px;
+    padding: 70px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.section10101 {
+.section10102 {
     width: 300px;
     height: 430px;
+    margin: 65px 0px 65px;
 }
-
+.h101 {
+    font-size: 40px;
+}
+.exp01 {
+    font-size: 24px;
+}
+.exp02 {
+    font-size: 11px;
+    display: flex;
+}
+.exp0201 {
+    display: block;
+    color: black;
+    margin: 0px 0px 0px 5px;
+}
+.link010 {
+    height: 48px;
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid;
+}
+.link01 {
+    display: inline-block;
+    width: 130px;
+    background-color: black;
+    color: white;
+}
+.link02 {
+    display: inline-block;
+    width: 147px;
+}
+.link0101 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -8% 0 0 -27.5%;
+}
+.img1 {
+    display: block;
+    margin: 60px 0px;
+}
 
