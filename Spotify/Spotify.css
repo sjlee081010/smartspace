@@ -545,8 +545,7 @@ summary::before,
 summary::after {
     content: "";
     position: absolute;
-    width: 1rem;
-    height: 2px;
+    </strong>    height: 2px;
     background-color: #222;
     right: 1rem;
     top: 2.5rem;
@@ -560,4 +559,7 @@ details p {
 }
 details[open] summary::after {
     display: none;
+}
+.last {
+    font-weight: 500;
 }
