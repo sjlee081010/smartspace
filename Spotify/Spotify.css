@@ -555,8 +555,8 @@ summary::after {
     transform: rotateZ(90deg);
 }
 details p {
-    padding-bottom: 2rem;
     margin-top: 10px;
+    padding-bottom: 2rem;
 }
 details[open] summary::after {
     display: none;
