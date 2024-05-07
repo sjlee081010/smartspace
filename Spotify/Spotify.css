@@ -386,13 +386,11 @@ nav {
     color: black;
 }
 .section5 {
-    height: 720px;  
     background-color: rgb(245, 245, 245);
 }
 .section501 {
     padding: 75px 15px;
     width: 1150px;
-    height: 570px;
     margin: auto;
 }
 .section5title {
@@ -558,6 +556,7 @@ summary::after {
 }
 details p {
     padding-bottom: 2rem;
+    margin-top: 10px;
 }
 details[open] summary::after {
     display: none;
