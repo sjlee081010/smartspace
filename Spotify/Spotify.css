@@ -545,7 +545,7 @@ summary::before,
 summary::after {
     content: "";
     position: absolute;
-    </strong>    height: 2px;
+    height: 2px;
     background-color: #222;
     right: 1rem;
     top: 2.5rem;
