@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연습
+    </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            width: 100px;
+            height: 100px;
+            transition: 10s;
+        }
+        aside {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            display: block;
+        }
+        div {
+            display: none;
+        }
+        nav:hover {
+            width: 500px;
+            display: flex;
+        }
+        nav:hover section {
+            display: block;
+            width: 400px;
+            height: 100px;
+            background-color: yellow;
+            overflow: hidden;
+            display: flex;
+        }
+        nav:hover div {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <article>
+            <aside></aside>
+        </article>
+        <section>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </section>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .all {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            transition: 0.4s;
+        }
+        .one {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        .all:hover {
+            width: 800px;
+        }
+        .all:hover .two {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+        .all:hover .two:hover {
+            background-color: rgb(0, 110, 73);
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="one"></div>
+        <a href="https://m.naver.com/" class="two"></a>
+        <a href="https://m.naver.com/" class="two"></a>
+        <a href="https://m.naver.com/" class="two"></a>
+    </div>
+</body>
+</html>
